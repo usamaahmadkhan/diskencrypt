@@ -1,0 +1,21 @@
+﻿  Source.c
+d:\my works\visual studio\bitwise\bitwise\source.c(78): warning C4244: 'return': conversion from 'LONGLONG' to 'int', possible loss of data
+d:\my works\visual studio\bitwise\bitwise\source.c(158): warning C4020: 'getNoOfSectors': too many actual parameters
+d:\my works\visual studio\bitwise\bitwise\source.c(413): warning C4244: '=': conversion from 'double' to 'LONGLONG', possible loss of data
+d:\my works\visual studio\bitwise\bitwise\source.c(437): warning C4244: '=': conversion from 'double' to 'LONGLONG', possible loss of data
+d:\my works\visual studio\bitwise\bitwise\source.c(443): warning C4013: 'getch' undefined; assuming extern returning int
+d:\my works\visual studio\bitwise\bitwise\source.c(414): warning C4477: 'printf' : format string '%ls' requires an argument of type 'unsigned short *', but variadic argument 1 has type 'LONGLONG'
+d:\my works\visual studio\bitwise\bitwise\source.c(414): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'LONGLONG'
+d:\my works\visual studio\bitwise\bitwise\source.c(414): warning C4476: 'printf' : unknown type field character ' ' in format specifier
+d:\my works\visual studio\bitwise\bitwise\source.c(414): warning C4474: 'printf' : too many arguments passed for format string
+  d:\my works\visual studio\bitwise\bitwise\source.c(414): note: placeholders and their parameters expect 1 variadic arguments, but 3 were provided
+d:\my works\visual studio\bitwise\bitwise\source.c(438): warning C4476: 'printf' : unknown type field character ' ' in format specifier
+d:\my works\visual studio\bitwise\bitwise\source.c(438): warning C4474: 'printf' : too many arguments passed for format string
+  d:\my works\visual studio\bitwise\bitwise\source.c(438): note: placeholders and their parameters expect 0 variadic arguments, but 3 were provided
+d:\my works\visual studio\bitwise\bitwise\source.c(238): warning C4716: 'EncryptSectorBlock': must return a value
+d:\my works\visual studio\bitwise\bitwise\source.c(355): warning C4716: 'DecryptFullVolume': must return a value
+Source.obj : error LNK2019: unresolved external symbol _xts_encrypt_key referenced in function _EncryptFullVolume
+Source.obj : error LNK2019: unresolved external symbol _xts_decrypt_key referenced in function _DecryptFullVolume
+Source.obj : error LNK2019: unresolved external symbol _xts_encrypt_sector referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _xts_decrypt_sector referenced in function _DecryptFullVolume
+D:\My Works\Visual Studio\Bitwise\Debug\Bitwise.exe : fatal error LNK1120: 4 unresolved externals
